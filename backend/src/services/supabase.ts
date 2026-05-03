@@ -118,3 +118,5 @@ export function getSupabase(accessToken?: string): SupabaseClient<Database> {
 
   return publicClient;
 }
+
+export const supabaseAdmin = getSupabase();

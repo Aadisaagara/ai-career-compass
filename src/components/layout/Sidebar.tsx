@@ -1,10 +1,11 @@
 import { Link, useRouterState } from "@tanstack/react-router";
-import { LayoutDashboard, Sparkles, Settings, Briefcase } from "lucide-react";
+import { LayoutDashboard, Sparkles, Settings, Briefcase, FileStack } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const items = [
   { to: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { to: "/generator", label: "Generator", icon: Sparkles },
+  { to: "/resumes", label: "Resume Vault", icon: FileStack },
   { to: "/settings", label: "Settings", icon: Settings },
 ] as const;
 
@@ -46,7 +47,7 @@ export function Sidebar() {
 export function MobileNav() {
   const path = useRouterState({ select: (s) => s.location.pathname });
   return (
-    <nav className="md:hidden fixed bottom-0 inset-x-0 z-40 border-t bg-card grid grid-cols-3">
+    <nav className="md:hidden fixed bottom-0 inset-x-0 z-40 border-t bg-card grid grid-cols-4">
       {items.map((it) => {
         const Icon = it.icon;
         const active = path.startsWith(it.to);

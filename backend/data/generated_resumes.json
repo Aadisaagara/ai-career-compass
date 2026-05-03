@@ -1,0 +1,174 @@
+[
+  {
+    "id": "93cda2b2-ef15-4400-ac8f-9b58217c493d",
+    "created_at": "2026-05-03T15:11:58.280Z",
+    "user_id": "613ab8bf-a97e-48dc-9de2-20f93361227b",
+    "job_id": "ae50dc9c-9181-49cc-9803-f95dc613daf8",
+    "resume_id": "3cb9f430-dacc-4efb-96d5-fc08fa60e2d7",
+    "sections": {
+      "contactHeader": {
+        "name": "AADI SAAGARA",
+        "email": "aadisaagara@gmail.com",
+        "phone": "9513351473",
+        "linkedin": "",
+        "location": "Bengaluru"
+      },
+      "professionalSummary": "Highly accomplished Technical Trainer with over 4 years of dedicated experience in designing and delivering impactful training programs, complemented by robust project management expertise. Proficient in full stack training methodologies, with a keen focus on empowering learners with practical skills in modern enterprise technologies. Skilled in developing comprehensive curricula and conducting engaging sessions, ready to instruct on advanced topics including Java, Spring Boot, and Data JPA. Committed to fostering technical proficiency and driving student success through clear communication and adaptive teaching strategies.",
+      "coreCompetencies": [
+        "Full Stack Training",
+        "Java",
+        "Spring Boot",
+        "Data JPA",
+        "Technical Training",
+        "Curriculum Development",
+        "Classroom Instruction",
+        "Public Speaking",
+        "Active Listening",
+        "Python",
+        "Project Management",
+        "Time Management"
+      ],
+      "workExperience": [
+        {
+          "company": "Agasthya EdTech Pvt Ltd",
+          "title": "Technical Trainer",
+          "duration": "08/2018 - 10/2020",
+          "bullets": [
+            "Led comprehensive technical training programs, specializing in full stack concepts and emerging technologies for diverse student groups.",
+            "Developed and delivered engaging, hands-on curriculum, integrating core programming principles and framework expertise for practical application.",
+            "Successfully trained hundreds of students on complex Enterprise Management Systems (EMS), significantly improving their technical proficiency and career readiness.",
+            "Fostered an interactive and supportive learning environment, leveraging excellent communication, classroom expertise, and active listening skills to maximize student engagement and understanding."
+          ]
+        },
+        {
+          "company": "DSLI",
+          "title": "Project Manager",
+          "duration": "09/2014 - 03/2018",
+          "bullets": [
+            "Managed end-to-end project lifecycles, ensuring timely delivery and adherence to quality standards within the manufacturing sector.",
+            "Coordinated and motivated cross-functional teams, fostering collaborative environments to achieve project milestones and strategic objectives.",
+            "Applied strong problem-solving and organizational skills to streamline operational processes and enhance overall project efficiency.",
+            "Maintained clear communication with stakeholders, providing regular updates on project status and managing expectations effectively."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Sai Vidhya Institute of Technology",
+          "degree": "BE",
+          "year": "2014"
+        },
+        {
+          "institution": "Sri Jayachamarajendra(govt) Polytechnic",
+          "degree": "Diploma",
+          "year": "2010"
+        }
+      ],
+      "certifications": [],
+      "atsKeywordsAdded": [
+        "full stack trainer",
+        "java",
+        "spring boot",
+        "data jpa",
+        "curriculum development",
+        "technical training",
+        "enterprise management systems",
+        "adult learning"
+      ],
+      "matchScoreEstimate": 78
+    }
+  },
+  {
+    "id": "976282f1-15ea-4368-a6f9-8966b09be064",
+    "created_at": "2026-05-03T15:18:29.811Z",
+    "user_id": "613ab8bf-a97e-48dc-9de2-20f93361227b",
+    "job_id": "ae50dc9c-9181-49cc-9803-f95dc613daf8",
+    "resume_id": null,
+    "sections": {
+      "contactHeader": {
+        "name": "testing",
+        "email": "aadisaagara@gmail.com",
+        "phone": "9513351473",
+        "linkedin": "",
+        "location": ""
+      },
+      "professionalSummary": "Highly experienced Full Stack Trainer with 9 years of expertise in Java, Spring Boot, and Data JPA, delivering impactful technical education. Proven ability to design and implement comprehensive Java Full Stack training programs, spanning front-end (HTML, CSS, JavaScript, React JS) and robust back-end development. Adept at translating complex technical concepts into engaging, hands-on material, consistently achieving high student placement rates and skill mastery. Dedicated to cultivating customized curricula that integrate the latest IT trends and equip learners with practical skills in modern development methodologies and database management.",
+      "coreCompetencies": [
+        "Java Full Stack Development",
+        "Spring Boot",
+        "Data JPA",
+        "Technical Training",
+        "Curriculum Development",
+        "Mentorship",
+        "MySQL",
+        "HTML/CSS/JavaScript",
+        "React JS",
+        "Program Management",
+        "Classroom Instruction",
+        "Database Management"
+      ],
+      "workExperience": [
+        {
+          "company": "ROOMAN TECHNOLOGIES PVT LTD",
+          "title": "SENIOR TECHNICAL TRAINER",
+          "duration": "DEC 2021 – PRESENT",
+          "bullets": [
+            "Successfully trained and placed over 4 batches of PMKVY students in Java Full Stack development, emphasizing Spring Boot and Data JPA.",
+            "Monitored and optimized training and placement processes for the training team, enhancing program efficiency and student outcomes.",
+            "Mentored Operations Team, establishing robust frameworks for managing and executing profitable paid training batches."
+          ]
+        },
+        {
+          "company": "STUDY ONLINE and DECCAN CODERS",
+          "title": "FREELANCING TECHNICAL TRAINER",
+          "duration": "NOV 2020 – NOV 2021",
+          "bullets": [
+            "Trained over 300 engineering candidates in comprehensive Java Full Stack development, including Spring Boot, Data JPA, and front-end technologies.",
+            "Provided targeted mentorship to over 200 students, significantly contributing to their successful career placement and skill development."
+          ]
+        },
+        {
+          "company": "AGASTHYA EDTECH PRIVATE LIMITED",
+          "title": "TECHNICAL TRAINER",
+          "duration": "AUG 2018 – OCT 2020",
+          "bullets": [
+            "Achieved successful training and placement for over 3000 students across various technical programs.",
+            "Led the development of Java and Python programming syllabi, meticulously breaking down complex technical concepts for effective learning.",
+            "Cultivated customized Java curriculum and course content, incorporating Spring Boot principles to meet evolving organizational technology mandates.",
+            "Advised executives on best practices for technical skill development and productivity, contributing to organizational success."
+          ]
+        },
+        {
+          "company": "DIVINE SUNLIGHT INDIA",
+          "title": "PRODUCT ENGINEER",
+          "duration": "OCT 2017 – JUNE 2018",
+          "bullets": [
+            "Contributed to the development of Smart LED Lights and embedded systems, enhancing product functionality.",
+            "Led a team in Embedded Technology development projects, ensuring timely delivery and quality."
+          ]
+        },
+        {
+          "company": "AMPLE INNOVATIONS",
+          "title": "EMBEDDED TECH TRAINER",
+          "duration": "AUG 2014 – SEP 2017",
+          "bullets": [
+            "Trained engineering students on embedded technology concepts and applications.",
+            "Managed the embedded technology training team, overseeing curriculum delivery and student progress."
+          ]
+        }
+      ],
+      "education": [],
+      "certifications": [],
+      "atsKeywordsAdded": [
+        "Data JPA",
+        "Full Stack Trainer",
+        "Spring Boot",
+        "Curriculum Development",
+        "Database Management",
+        "Front-end Technologies",
+        "Java Full Stack Development"
+      ],
+      "matchScoreEstimate": 92
+    }
+  }
+]

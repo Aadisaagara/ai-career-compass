@@ -14,6 +14,7 @@ import { Route as AuthRouteImport } from './routes/auth'
 import { Route as AppRouteImport } from './routes/_app'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AppSettingsRouteImport } from './routes/_app/settings'
+import { Route as AppResumesRouteImport } from './routes/_app/resumes'
 import { Route as AppGeneratorRouteImport } from './routes/_app/generator'
 import { Route as AppDashboardRouteImport } from './routes/_app/dashboard'
 
@@ -41,6 +42,11 @@ const AppSettingsRoute = AppSettingsRouteImport.update({
   path: '/settings',
   getParentRoute: () => AppRoute,
 } as any)
+const AppResumesRoute = AppResumesRouteImport.update({
+  id: '/resumes',
+  path: '/resumes',
+  getParentRoute: () => AppRoute,
+} as any)
 const AppGeneratorRoute = AppGeneratorRouteImport.update({
   id: '/generator',
   path: '/generator',
@@ -58,6 +64,7 @@ export interface FileRoutesByFullPath {
   '/onboarding': typeof OnboardingRoute
   '/dashboard': typeof AppDashboardRoute
   '/generator': typeof AppGeneratorRoute
+  '/resumes': typeof AppResumesRoute
   '/settings': typeof AppSettingsRoute
 }
 export interface FileRoutesByTo {
@@ -66,6 +73,7 @@ export interface FileRoutesByTo {
   '/onboarding': typeof OnboardingRoute
   '/dashboard': typeof AppDashboardRoute
   '/generator': typeof AppGeneratorRoute
+  '/resumes': typeof AppResumesRoute
   '/settings': typeof AppSettingsRoute
 }
 export interface FileRoutesById {
@@ -76,6 +84,7 @@ export interface FileRoutesById {
   '/onboarding': typeof OnboardingRoute
   '/_app/dashboard': typeof AppDashboardRoute
   '/_app/generator': typeof AppGeneratorRoute
+  '/_app/resumes': typeof AppResumesRoute
   '/_app/settings': typeof AppSettingsRoute
 }
 export interface FileRouteTypes {
@@ -86,9 +95,17 @@ export interface FileRouteTypes {
     | '/onboarding'
     | '/dashboard'
     | '/generator'
+    | '/resumes'
     | '/settings'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/auth' | '/onboarding' | '/dashboard' | '/generator' | '/settings'
+  to:
+    | '/'
+    | '/auth'
+    | '/onboarding'
+    | '/dashboard'
+    | '/generator'
+    | '/resumes'
+    | '/settings'
   id:
     | '__root__'
     | '/'
@@ -97,6 +114,7 @@ export interface FileRouteTypes {
     | '/onboarding'
     | '/_app/dashboard'
     | '/_app/generator'
+    | '/_app/resumes'
     | '/_app/settings'
   fileRoutesById: FileRoutesById
 }
@@ -144,6 +162,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppSettingsRouteImport
       parentRoute: typeof AppRoute
     }
+    '/_app/resumes': {
+      id: '/_app/resumes'
+      path: '/resumes'
+      fullPath: '/resumes'
+      preLoaderRoute: typeof AppResumesRouteImport
+      parentRoute: typeof AppRoute
+    }
     '/_app/generator': {
       id: '/_app/generator'
       path: '/generator'
@@ -164,12 +189,14 @@ declare module '@tanstack/react-router' {
 interface AppRouteChildren {
   AppDashboardRoute: typeof AppDashboardRoute
   AppGeneratorRoute: typeof AppGeneratorRoute
+  AppResumesRoute: typeof AppResumesRoute
   AppSettingsRoute: typeof AppSettingsRoute
 }
 
 const AppRouteChildren: AppRouteChildren = {
   AppDashboardRoute: AppDashboardRoute,
   AppGeneratorRoute: AppGeneratorRoute,
+  AppResumesRoute: AppResumesRoute,
   AppSettingsRoute: AppSettingsRoute,
 }
 

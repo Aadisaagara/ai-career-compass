@@ -4,6 +4,7 @@ import { aiRateLimit } from "../middleware/rateLimit";
 import { auth } from "../middleware/auth";
 import { analyzeResume } from "../services/gemini";
 import { getSupabase } from "../services/supabase";
+import type { Json } from "../types";
 
 const router = Router();
 
@@ -60,7 +61,7 @@ router.post("/process-ai", auth, aiRateLimit, async (req, res, next) => {
       const { error: updateError } = await getSupabase(req.accessToken)
         .from("jobs")
         .update({
-          generated_content: result,
+          generated_content: result as Json,
           job_description: jobDescription,
           original_resume_text: resumeText,
         })

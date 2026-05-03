@@ -26,9 +26,8 @@ export function useAuthInit() {
 }
 
 export function useAuth() {
-  return useAppStore((s) => ({
-    user: s.user,
-    session: s.session,
-    authReady: s.authReady,
-  }));
+  const user = useAppStore((s) => s.user);
+  const session = useAppStore((s) => s.session);
+  const authReady = useAppStore((s) => s.authReady);
+  return { user, session, authReady };
 }

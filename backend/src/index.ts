@@ -10,6 +10,8 @@ import { ZodError } from "zod";
 import aiRouter from "./routes/ai";
 import jobsRouter from "./routes/jobs";
 import profileRouter from "./routes/profile";
+import resumesRouter from "./routes/resumes";
+import generateResumeRouter from "./routes/generateResume";
 import { ConfigError } from "./services/env";
 
 const app = express();
@@ -27,6 +29,8 @@ app.get("/health", (_req: Request, res: Response) => {
 app.use("/api", aiRouter);
 app.use("/api", jobsRouter);
 app.use("/api", profileRouter);
+app.use("/api", resumesRouter);
+app.use("/api", generateResumeRouter);
 
 app.use((_req: Request, res: Response) => {
   res.status(404).json({ error: "Route not found" });
