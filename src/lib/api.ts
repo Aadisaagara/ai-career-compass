@@ -21,11 +21,16 @@ export async function processResume(payload: {
   }
   const session = await supabase.auth.getSession();
   const token = session.data.session?.access_token;
+
+  if (!token) {
+    throw new Error("You must be signed in before using the AI resume tools.");
+  }
+
   const res = await fetch(`${BASE}/api/process-ai`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${token ?? ""}`,
+      Authorization: `Bearer ${token}`,
     },
     body: JSON.stringify(payload),
   });
