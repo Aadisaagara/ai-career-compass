@@ -170,5 +170,162 @@
       ],
       "matchScoreEstimate": 92
     }
+  },
+  {
+    "id": "dcf38571-9b92-45ca-94ed-e35a462b9d45",
+    "created_at": "2026-05-04T10:51:51.656Z",
+    "user_id": "613ab8bf-a97e-48dc-9de2-20f93361227b",
+    "job_id": "ae50dc9c-9181-49cc-9803-f95dc613daf8",
+    "resume_id": "3cb9f430-dacc-4efb-96d5-fc08fa60e2d7",
+    "sections": {
+      "contactHeader": {
+        "name": "AADI SAAGARA",
+        "email": "aadisaagara@gmail.com",
+        "phone": "9513351473",
+        "linkedin": "",
+        "location": "Bengaluru"
+      },
+      "professionalSummary": "Highly accomplished Technical Trainer with 15 years of experience specializing in developing and delivering comprehensive full stack training programs. Proficient in Java, Spring Boot, and Data JPA, coupled with strong expertise in Python and Flask Framework. Adept at creating engaging curriculum and hands-on projects that foster deep understanding and practical application of complex technical concepts. Proven ability to guide students through intricate full stack development lifecycles, ensuring high proficiency and job readiness.",
+      "coreCompetencies": [
+        "Full Stack Development",
+        "Java",
+        "Spring Boot",
+        "Data JPA",
+        "Technical Training",
+        "Curriculum Design",
+        "Public Speaking",
+        "Classroom Management",
+        "Python",
+        "Flask Framework",
+        "Algorithmic Trading",
+        "Mentorship"
+      ],
+      "workExperience": [
+        {
+          "company": "Project Manager",
+          "title": "DSLI",
+          "duration": "09/2014 - 03/2018, Bengaluru",
+          "bullets": [
+            "Managed and oversaw multiple project lifecycles, ensuring on-time and within-budget delivery for manufacturing initiatives.",
+            "Coordinated cross-functional teams, fostering collaborative environments to achieve project milestones and objectives.",
+            "Implemented process improvements that enhanced operational efficiency and streamlined project workflows."
+          ]
+        },
+        {
+          "company": "Agasthya EdTech Pvt Ltd",
+          "title": "Technical Trainer",
+          "duration": "08/2018 - 10/2020, Bengaluru",
+          "bullets": [
+            "Designed and delivered immersive full stack development training programs, including advanced modules in Java, Spring Boot, and Data JPA.",
+            "Instructed hundreds of students on enterprise management systems (EMS) and modern software development methodologies, achieving high student satisfaction rates.",
+            "Developed and curated practical, project-based learning experiences that reinforced complex concepts and prepared students for industry challenges."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Sai Vidhya Institute of Technology",
+          "degree": "BE",
+          "year": "2014"
+        },
+        {
+          "institution": "Sri Jayachamarajendra(govt) Polytechnic",
+          "degree": "Diploma",
+          "year": "2010"
+        }
+      ],
+      "certifications": [],
+      "atsKeywordsAdded": [
+        "Java",
+        "Spring Boot",
+        "Data JPA",
+        "Full Stack Development",
+        "Curriculum Development",
+        "Enterprise Management Systems",
+        "Project-Based Learning",
+        "Software Development Life Cycle",
+        "Technical Instructor"
+      ],
+      "matchScoreEstimate": 85
+    }
+  },
+  {
+    "id": "61e10e47-92d5-4c21-b990-04b7573df066",
+    "created_at": "2026-05-04T11:05:10.757Z",
+    "user_id": "613ab8bf-a97e-48dc-9de2-20f93361227b",
+    "job_id": "66b5e534-06ab-464a-8965-c2f000b3906a",
+    "resume_id": "3cb9f430-dacc-4efb-96d5-fc08fa60e2d7",
+    "sections": {
+      "contactHeader": {
+        "name": "AADI SAAGARA",
+        "email": "aadisaagara@gmail.com",
+        "phone": "9513351473",
+        "linkedin": "",
+        "location": "Bengaluru"
+      },
+      "professionalSummary": "A highly analytical and results-driven professional with a strong foundation in technical training and project management, now passionately transitioning into frontend development. Eager to leverage a robust problem-solving aptitude and a proactive learning approach to master modern web technologies. Actively acquiring proficiency in React, Material UI, JavaScript, HTML, and CSS to build intuitive and responsive user interfaces. Seeking to apply a blend of technical acumen, project coordination skills, and a commitment to continuous learning in a challenging Frontend Developer role.",
+      "coreCompetencies": [
+        "Frontend Development",
+        "React.js",
+        "Material UI",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Python",
+        "Flask Framework (Learning)",
+        "Algorithmic Applications",
+        "Project Management",
+        "Technical Training",
+        "Problem Solving"
+      ],
+      "workExperience": [
+        {
+          "company": "DSLI",
+          "title": "Project Manager",
+          "duration": "09/2014 - 03/2018, Bengaluru",
+          "bullets": [
+            "Spearheaded project lifecycle management, coordinating cross-functional teams to deliver manufacturing objectives within defined timelines and budgets.",
+            "Implemented strategic process enhancements, resulting in improved operational efficiency and project delivery success.",
+            "Managed stakeholder communication and risk mitigation to ensure project stability and successful outcomes."
+          ]
+        },
+        {
+          "company": "Agasthya EdTech Pvt Ltd",
+          "title": "Technical Trainer",
+          "duration": "08/2018 - 10/2020, Bengaluru",
+          "bullets": [
+            "Designed and delivered comprehensive technical training curricula, educating hundreds of students on complex concepts and practical application.",
+            "Cultivated an interactive learning environment, simplifying advanced topics to enhance student comprehension and skill development in technology.",
+            "Mentored and evaluated student progress, adapting instructional strategies to meet diverse learning needs and ensure mastery of technical subjects."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Sai Vidhya Institute of Technology",
+          "degree": "BE",
+          "year": "2014"
+        },
+        {
+          "institution": "Sri Jayachamarajendra(govt) Polytechnic",
+          "degree": "Diploma",
+          "year": "2010"
+        }
+      ],
+      "certifications": [],
+      "atsKeywordsAdded": [
+        "React.js",
+        "Material UI",
+        "Frontend Development",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Web Development",
+        "UI/UX Design",
+        "Responsive Design",
+        "User Interface"
+      ],
+      "matchScoreEstimate": 25
+    }
   }
 ]
